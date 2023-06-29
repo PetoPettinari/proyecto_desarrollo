@@ -1,0 +1,30 @@
+<style>
+    h1
+        nav
+            {
+                color: rgb(219, 219, 230);
+                font-size: 50px
+                text-align:  center;}
+        nav
+    {
+        background-color: rgb(80, 191, 29);
+    }
+</style>
+
+.navegador{
+    background-color: rgb(80, 191, 29);
+}
+
+h2
+{
+    color: rgb(30, 30, 173);
+    font-size: 50px
+    text-align:  center;
+}
+div 
+{
+    color: rgb(0, 0, 0);
+    font-size: 50px
+    text-align:  center;
+}
+</style>
