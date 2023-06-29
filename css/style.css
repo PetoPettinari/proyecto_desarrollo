@@ -1,18 +1,26 @@
 <style>
-    h1
-        nav
-            {
-                color: rgb(219, 219, 230);
-                font-size: 200px
-                text-align:  center;}
+    h1{
+        color: rgb(12, 12, 12);
+        font-size: 50px
+        text-align:  center;
+        }
+        nav{
+            color: rgb(225, 17, 17);
+            font-size: 200px
+            text-align:center;
+        }
         nav
     {
-        background-color: rgb(80, 191, 29);
+        background-color: rgb(134, 179, 223);
     }
 </style>
 
-.navegador{
-    background-color: rgb(80, 191, 29);
+
+.imag-instrumentos
+{
+    width: 500;
+    height: 500;
+    object-fit: cover;
 }
 
 h2
