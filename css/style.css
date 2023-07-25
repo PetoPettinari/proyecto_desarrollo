@@ -126,6 +126,15 @@
     position: absolute;
     bottom: -20px;
     right: 20px ;
+}      
+
+.piano_img{
+    width: 50%;
+    height: 650px;
+    object-fit: cover;
+    margin: 05px;
+    padding: 05px;
+    background-size: cover;
 }
 
 .pie-de-pagina{
@@ -134,11 +143,12 @@
 }
 .pie-de-pagina .info-empresa{
     display: flex;
-    justify-content: space-around;
+    justify-content:flex-end;
 }
 .pie-de-pagina .redes{
-    font-size: 40px;
+    font-size: 20px;
 }
+
 .Registro{
    border: 20px;px solid;
    margin: 05px;
