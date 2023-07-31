@@ -61,13 +61,13 @@
       position:fixed
       top: 0;
       left: -300px;
-      width: 250vw;
-      height: 100vh;
+      width: 350vw;
+      height: 50vh;
       background-color: rgb(244, 244, 244);
       flex-direction: column;
       align-items: center;
       margin-top: 50px;
-      transition: 0.5s;
+      transition left 0.5s;
     }
     .navegador ul :hover{
       left: 0;
@@ -172,6 +172,15 @@
   padding: 5px;
 }
 
+.c-item{
+  height: 480px;
+}
+
+.c-img{
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
 .productos {
   position: relative;
   display: flex;
@@ -233,7 +242,7 @@
 .pie-de-pagina {
   background-color: rgb(49, 12, 235);
   color: white;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:(2fr,2fr 1fr);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -243,18 +252,34 @@
   margin: 5px;
   padding: 5px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap 10px;
+  justify-content:left;
   align-items: center;
   flex-direction: row;
 }
 
-.pie-de-pagina .redes {
-  font-size: 20px;
+
+@media(max-width: 768px) {
+  .pie-de-pagina .info-empresa {
+    grid-template-columns:1fr 1fr;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap 10px;
+    justify-content:left;
+    align-items: center;
+    flex-direction: row;
+  }
+  .pie-de-pagina .redes {
+    font-size: 20px;
+  }
 }
 
 .form-contenedor{
   display: grid;
-  grid-template-rows: min-content,500px);
+  grid-template-rows: min-content,500px;
   justify-content: center;
   margin: 50px 0px 5% 0px;
 }
