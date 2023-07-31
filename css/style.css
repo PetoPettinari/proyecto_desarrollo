@@ -306,8 +306,8 @@
   background-image: url(../multimedia/img/musicos/pexels-snapwire-6966.jpg);
   background-size: cover;
   width: 100%;
-  height: 650px;
-  flex-direction: :column;
+  height: 500px;
+  flex-direction:column;
   gap: 30px;
   text - align: center;
 }
