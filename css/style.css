@@ -59,7 +59,7 @@
   }
   .navegador ul{
       position:fixed
-      top: 0;
+      top 0;
       left: -300px;
       width: 350vw;
       height: 50vh;
@@ -279,14 +279,11 @@
     padding: 5px;
     display: flex;
     flex-direction: column;
-    gap 10px;
     justify-content:left;
     align-items: center;
     flex-direction: row;
   }
-  .pie-de-pagina .redes {
-    font-size: 20px;
-  }
+  
 }
 
 .form-contenedor{
@@ -296,7 +293,7 @@
   margin: 50px 0px 5% 0px;
 }
 .form-info{
-  background-image:url(../multimedia/img/pianos/pexels-bryan-geraldo-586415.jpg ;
+  background-image:url(../multimedia/img/pianos/pexels-bryan-geraldo-586415.jpg) ;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -321,7 +318,7 @@
   height: 650px;
   flex-direction:column;
   gap: 30px;
-  text - align: center;
+  text-align:center
 }
 
 .form-Registro input{
@@ -341,9 +338,9 @@
   height: 490px;
   flex-direction:column;
   gap: 8px;
-  text-align:left
-  padding: 20px;
-  margin: 10px;
+  text-align:center;
+  padding: 0px;
+  margin:0px; 
 }
 
 /*# sourceMappingURL=style.css.map */
