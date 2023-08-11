@@ -42,42 +42,40 @@
   justify-content: center;
   align-items: safe;
 }
-.navegador .fa-bars{
-  display:none
+
+.navegador .fa-bars {
+  display: none;
 }
 
-@media(max-width: 768px) {
-  .navegador .fa-bars{
+@media (max-width: 768px) {
+  .navegador .fa-bars {
     display: block;
-    margin:10 px;
-    font-size:30px ;
-    color: rgb(39, 11, 196) ;
-    order: -1; 
+    margin: 10 px;
+    font-size: 30px;
+    color: rgb(39, 11, 196);
+    order: -1;
   }
   .navegador .fa-bars:hover + ul {
-    left: 0; 
+    left: 0;
   }
-  .navegador ul{
-      position:fixed
-      top 0;
-      left: -300px;
-      width: 350vw;
-      height: 50vh;
-      background-color: rgb(244, 244, 244);
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-      transition left 0.5s;
-    }
-    .navegador ul :hover{
-      left: 0;
-    }
-    .navegador ul li a{
-      color: rgb(23, 23, 215);     
-    }
-    
+  .navegador ul {
+    position: fixed top 0;
+    left: -300px;
+    width: 350vw;
+    height: 50vh;
+    background-color: rgb(244, 244, 244);
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    transition: left 0.5s;
+  }
+  .navegador ul :hover {
+    left: 0;
+  }
+  .navegador ul li a {
+    color: rgb(23, 23, 215);
+  }
 }
-
 .encabezado {
   background-image: url(../multimedia/img/musicos/pexels-snapwire-6966.jpg);
   width: 100%;
@@ -88,13 +86,14 @@
   display: flex;
   justify-content: center;
 }
+
 .cabe-texto {
   font-size: 5px;
   font-weight: bold;
   margin: 5%;
   padding: 10px;
   text-align: left;
-  justify-content:right
+  justify-content: right;
 }
 
 .encabezado .logo {
@@ -145,14 +144,13 @@
   margin: 5px;
   padding: 5px;
   border: 0px;
-  border-radius: 20   px;
+  border-radius: 20 px;
   background-color: #0e64bf;
   color: white;
   font-size: larger;
   font-weight: bold;
   padding: 10px;
   margin: 0px;
-
 }
 
 .portada {
@@ -172,15 +170,16 @@
   padding: 5px;
 }
 
-.c-item{
+.c-item {
   height: 480px;
 }
 
-.c-img{
+.c-img {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.6);
 }
+
 .productos {
   position: relative;
   display: flex;
@@ -272,28 +271,27 @@
   gap: 20px;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .pie-de-pagina .info-empresa {
-    grid-template-columns:2fr 2fr;
+    grid-template-columns: 2fr 2fr;
     margin: 5px;
     padding: 5px;
     display: flex;
     flex-direction: column;
-    justify-content:left;
+    justify-content: left;
     align-items: center;
     flex-direction: row;
   }
-  
 }
-
-.form-contenedor{
+.form-contenedor {
   display: grid;
-  grid-template-rows: min-content,500px;
+  grid-template-rows: min-content, 500px;
   justify-content: center;
   margin: 50px 0px 5% 0px;
 }
-.form-info{
-  background-image:url(../multimedia/img/pianos/pexels-bryan-geraldo-586415.jpg) ;
+
+.form-info {
+  background-image: url(../multimedia/img/pianos/pexels-bryan-geraldo-586415.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -316,14 +314,14 @@
   background-size: cover;
   width: 100%;
   height: 650px;
-  flex-direction:column;
+  flex-direction: column;
   gap: 30px;
-  text-align:center
+  text-align: center;
 }
 
-.form-Registro input{
-  border:2px solid rgb(21, 21, 135);
-  padding:10px 20 px;
+.form-Registro input {
+  border: 2px solid rgb(21, 21, 135);
+  padding: 10px 20 px;
   border-radius: 5px;
   font-size: 20px;
 }
@@ -336,11 +334,13 @@
   background-size: cover;
   width: 50%;
   height: 490px;
-  flex-direction:column;
+  flex-direction: column;
   gap: 8px;
-  text-align:center;
+  text-align: center;
   padding: 0px;
-  margin:0px; 
+  margin: 0px;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
