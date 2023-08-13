@@ -22,13 +22,6 @@
   animation: flotar 3s linear infinite alternate;
 }
 
-.inst flotar form {
-  transform: rotate(5deg);
-}
-.inst flotar to {
-  transform: rotate(-5deg);
-}
-
 .navegador h1 {
   font-family: "Times New Roman", Times, serif;
 }
@@ -182,7 +175,7 @@
   padding: 5px;
   border: 0px;
   border-radius: 20 px;
-  background-color: #0e64bf;
+  background-color: #132eb8;
   color: white;
   font-size: larger;
   font-weight: bold;
@@ -190,6 +183,19 @@
   margin: 0px;
 }
 
+.boton:hover {
+  -webkit-animation: 0.7s flash 1;
+}
+
+@-webkit-keyframes flash {
+  50% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+/*------body_Portada-----------*/
 .portada {
   background-image: url(../multimedia/img/musicos/pexels-snapwire-6966.jpg);
   width: 100%;
@@ -217,6 +223,7 @@
   filter: brightness(0.6);
 }
 
+/*------body_Productos-----------*/
 .productos {
   position: relative;
   display: flex;
@@ -275,6 +282,7 @@
   background-size: cover;
 }
 
+/*------footer-----------*/
 .pie-de-pagina {
   background-color: rgb(49, 12, 235);
   color: white;
@@ -320,6 +328,7 @@
     flex-direction: row;
   }
 }
+/*------Formulario-----------*/
 .form-contenedor {
   display: grid;
   grid-template-rows: min-content, 500px;
