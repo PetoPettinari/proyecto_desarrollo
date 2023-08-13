@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*------Navegador-----------*/
 .inst {
   color: rgb(35, 15, 133);
   margin: 2px;
@@ -11,6 +12,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.inst {
+  color: rgb(27, 25, 151);
+  font-size: 4rem;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px 5px #6013e5;
+  animation: flotar 3s linear infinite alternate;
+}
+
+.inst flotar form {
+  transform: rotate(5deg);
+}
+.inst flotar to {
+  transform: rotate(-5deg);
 }
 
 .navegador h1 {
@@ -76,6 +92,7 @@
     color: rgb(23, 23, 215);
   }
 }
+/*------Encabezado_index-----------*/
 .encabezado {
   background-image: url(../multimedia/img/musicos/pexels-snapwire-6966.jpg);
   width: 100%;
@@ -112,6 +129,26 @@
   height: 50%;
 }
 
+/*------CLIENTES_COLUMNAS-----------*/
+.col-4 {
+  flex: 0 0 auto;
+  width: 33%;
+  padding: 5px;
+  margin: 1px;
+  background-color: rgb(244, 244, 244);
+  object-fit: cover;
+}
+
+.img .col-4 {
+  flex: 0 0 auto;
+  width: 33%;
+  padding: 5px;
+  margin: 1px;
+  background-color: rgb(244, 244, 244);
+  object-fit: cover;
+}
+
+/*------body_Card_ventas-----------*/
 .ventas {
   display: flex;
   flex-wrap: wrap;
