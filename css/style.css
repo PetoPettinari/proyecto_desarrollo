@@ -4,6 +4,119 @@
   box-sizing: border-box;
 }
 
+.encabezado {
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  background-color: #1a22bb;
+  color: white;
+  padding: 10px;
+  margin: 5%;
+}
+
+.cabe-texto {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5%;
+  padding: 10px;
+  text-align: left;
+  justify-content: right;
+}
+
+.encabezado .logo {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin: 5%;
+  padding: 0px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33%;
+  padding: 5px;
+  background-color: #1a22bb;
+  object-fit: cover;
+}
+
+.img .col-4 {
+  flex: 0 0 auto;
+  width: 33%;
+  padding: 5px;
+}
+
+.navbar bg-body-terciary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.card .card {
+  width: 90%;
+  height: 250px;
+  object-fit: cover;
+  margin: 5%;
+  padding: 5px;
+  background-color: rgb(244, 244, 244);
+  object-fit: cover;
+}
+
+.productos {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.producto {
+  width: 290px;
+  border: 2px solid #000000;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.producto h4 {
+  font-size: 30px;
+}
+
+.producto p {
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+.pie-de-pagina {
+  background-color: rgb(49, 12, 235);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.info-empresa {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*------Navegador-----------*/
 .inst {
   color: rgb(35, 15, 133);

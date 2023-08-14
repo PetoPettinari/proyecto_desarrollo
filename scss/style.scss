@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  @import "variables";
+  @import "navegador";
+  @import "encabezado";
+  @import "row";
+  @import "navbar";
+  @import "productos";
+  @import "footer";
   
   /*------Navegador-----------*/
 
