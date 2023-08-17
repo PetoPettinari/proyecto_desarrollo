@@ -105,21 +105,17 @@
     height: 650px;
     margin: 0px;
     padding: 0px;
-    background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    background-size:contain;
     font-family: "Times New Roman", Times, serif;
-    color: rgb(4, 1, 1);
+    color: rgb(23, 23, 215);
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 10px;
     text-align: center;
-    text-shadow: 4px 4px 5px #1b09e0;
-    animation: flotar 1ms linear infinite alternate;
-    
   }
   .cabe-texto {
     font-size: 10px;
@@ -127,7 +123,10 @@
     margin: 10%;
     padding: 10px;
     text-align: center;
-    justify-content:right;
+    justify-content:center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px;  
   }
   
   .encabezado .logo {
@@ -140,9 +139,6 @@
     display: flex;
     align-items: center;
     justify-content:flex-end;
-    padding: 10px;
-    margin: 5%;
-    padding: 1px;  
   }
   
   .nav {
@@ -270,7 +266,7 @@
   
   .producto {
     width: 290px;
-    border: 2px solid #000000;
+    border: 2px solid #0f1d8b;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
@@ -394,11 +390,11 @@
   }
   .form-info{
     background-image:url(../multimedia/img/pianos/pexels-bryan-geraldo-586415.jpg) ;
-    background-size:auto;
+    background-size: cover;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content:flex-end;
-    align-items: center;
     color: rgb(162, 171, 193);
     border: 5px solid rgb(21, 21, 135);
     border-right:-1px;
@@ -414,11 +410,14 @@
     font-size: 18px;
     background-image: url(../multimedia/img/musicos/pexels-snapwire-6966.jpg);
     background-size: cover;
-    width: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
     height: 650px;
-    flex-direction:column;
-    gap: 30px;
-    text-align:center
+    gap: 10px;
+    padding: 50px;
+    margin:0px;
+    font-family: "times new roman", times, serif;
+    color:solid rgb(21, 21, 135);
   }
   
   .form-Registro input{
