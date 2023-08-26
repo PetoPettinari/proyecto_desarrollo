@@ -51,7 +51,7 @@
   }
   
   .navegador ul li a {
-    color: rgb(10, 38, 197);
+    color: rgb(87, 38, 143);
     display: block;
     text-decoration: none;
     display: block;
@@ -64,36 +64,43 @@
     display:none
   }
   
-  @media(max-width: 768px) {
+  @media(max-width:768px){
     .navegador .fa-bars{
       display: block;
-      margin:10 px;
-      font-size:30px ;
-      color: rgb(39, 11, 196) ;
-      order: -1; 
+      margin: 10px;
+      font-size: 30px;
+      color: rgb(22, 40, 236);
+      order: -1;
     }
-    .navegador .fa-bars:hover + ul {
-      left: 0; 
+    .navegador .fa-bars :hover + ul{
+      left: 0;
     }
     .navegador ul{
         position:fixed
         top 0;
         left: -300px;
-        width: 350vw;
-        height: 50vh;
-        background-color: rgb(244, 244, 244);
+        width: 250px;
+        height: 100vh;
+        background-color: rgb(67, 48, 238);
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
+        padding-top: 50px;
         transition: left 0.5s;
       }
-      .navegador ul :hover{
-        left: 0;
+    .navegador ul:hover{
+      left: 0;
+    }    
+    .navegador ul{
+        position: fixed;
+        top: 0;
+        left: -300px;
+        width: 250px;
       }
       .navegador ul li a{
-        color: rgb(23, 23, 215);     
-      }    
-  }
+        color: rgb(23, 72, 196);     
+      }
+}    
+
 
 
   
