@@ -5,13 +5,13 @@
 }
 
 .navegador {
-  -webkit-transform: translateX(0);
+  -webkit-animation: translateX(0);
 }
 
 .navegador:before {
   content: "";
   position: absolute;
-  width: 90%;
+  width: 100%;
   top: 100%;
   left: 5%;
   height: 10px;
@@ -184,7 +184,7 @@
   color: rgb(27, 25, 151);
   font-size: 4rem;
   letter-spacing: 5px;
-  text-shadow: 4px 4px 5px #6013e5;
+  text-shadow: 4px 4px 5px #1e22ac;
   animation: flotar 3s linear infinite alternate;
 }
 
@@ -208,7 +208,7 @@
 }
 
 .navegador ul li a {
-  color: rgb(87, 38, 143);
+  color: rgb(16, 18, 153);
   display: block;
   text-decoration: none;
   display: block;
@@ -236,8 +236,8 @@
   .navegador ul {
     position: fixed top 0;
     left: -300px;
-    width: 250px;
-    height: 100vh;
+    width: 350px;
+    height: 100%;
     background-color: rgb(67, 48, 238);
     flex-direction: column;
     align-items: center;
@@ -261,7 +261,7 @@
 .encabezado {
   background-image: url(../multimedia/img/musicos/pexels-snapwire-6966.jpg);
   width: 100%;
-  height: 650px;
+  height: 680px;
   margin: 0px;
   padding: 0px;
   display: flex;

@@ -3,14 +3,13 @@ $background-color: bg-color-secondary;
 $shadow: 4px 4px 5px #1b09e0;
 $font-family: "times new roman", times, serif;
 
-.navegador{
-	-webkit-transform: translateX(0);
-    }
-
+.navegador {
+	-webkit-animation: translateX(0);
+	}
     .navegador:before{
 	    content: '';
 	    position: absolute;
-	    width: 90%;
+	    width: 100%;
 	    top: 100%;
 	    left: 5%;
 	    height: 10px;
@@ -34,7 +33,7 @@ $font-family: "times new roman", times, serif;
     }
     .navegador:hover:before{
 	    opacity: 0.4;
-	    -webkit-transform: translateY(5px);
+		-webkit-transform: translateY(5px);
         opacity: 1;
 	    -webkit-animation: 1.5s moversombra infinite;	
     }
@@ -43,8 +42,8 @@ $font-family: "times new roman", times, serif;
 	    50%{
 		    opacity: 1;
 		    -webkit-transform: translateY(3px);
-	}
+			}
 
-		}
+}
 	
 
